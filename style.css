@@ -21,13 +21,13 @@ form{
     grid-gap: 8px;
     margin-top: 20px;
 }
-#list-item{
+#listitem{
     border: 0;
     border-bottom: 2px solid #000;
     outline: none;
     transition: 0.15s;
 }
-#list-item:focus{
+#listitem:focus{
     border-bottom: 2px solid rgb(255, 68, 68);
 }
 
@@ -49,7 +49,7 @@ li{
     font-size: 16px;
     transition: 0.1s;
 }
-li:nth-child(odd){
+li:nth-child(odd) {
     background: rgb(255, 226, 226);
 }
 li:hover{
